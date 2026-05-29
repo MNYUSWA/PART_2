@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Enquiry - Goose Goose Duck Store</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/form-validation.js" defer></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="products.html">Products</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="enquiry">
+  <h1>Enquiry Form</h1>
+  <p>Interested in becoming a sponsor, volunteer, or just want to ask us something? Fill out the form below.</p>
+
+  <form id="enquiryForm">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="role">I am interested in:</label>
+    <select id="role" name="role" required>
+      <option value="">--Select--</option>
+      <option value="sponsor">Sponsorship</option>
+      <option value="volunteer">Volunteering</option>
+      <option value="general">General Enquiry</option>
+    </select>
+
+    <label for="message">Message:</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit" class="btn">Submit Enquiry</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy 2026 Goose Goose Duck Store | Designed by Emihle</p>
+</footer>
+
+</body>
+</html>
